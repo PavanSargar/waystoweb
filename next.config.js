@@ -9,6 +9,10 @@ const nextConfig = {
         protocol: "https",
         hostname: "waystoweb.com",
       },
+      {
+        protocol: "https",
+        hostname: "ik.imagekit.io",
+      },
     ],
   },
 };

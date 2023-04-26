@@ -9,7 +9,7 @@ type Items = {
 };
 
 export default function PostHero() {
-  const heroPost = getPostBySlug("hero-post", [
+  const heroPost = getPostBySlug("how-to-start-a-blog-in-2022", [
     "title",
     "excerpt",
     "slug",

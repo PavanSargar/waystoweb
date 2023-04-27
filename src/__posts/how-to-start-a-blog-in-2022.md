@@ -5,6 +5,7 @@ categories:
   - "blogging"
 coverImage: "https://ik.imagekit.io/waystoweb/waystoweb/21/Copy-of-for-thumbnail.jpg?updatedAt=1682356808414"
 author: "Pavan Sargar"
+excerpt: "Learn how & why to start a blog in 2022 and how to make money with it. Blogging is still the best way to make money online, so don’t wait learn blogging."
 ---
 
 Today's blog is fun and quite informative. Today we'll discuss why & how to start a blog in 2022? I know many of you might think that blogging is dead, but is it?

@@ -6,6 +6,7 @@ categories:
   - "web-development"
 coverImage: "https://ik.imagekit.io/waystoweb/waystoweb/17/thumbnail.jpg?updatedAt=1682356650323"
 author: "Pavan Sargar"
+excerpt: "Learn how to style React Components using conditional or inline React styling, and dynamic CSS classes to avoid CSS overriding on other components."
 ---
 
 Share:

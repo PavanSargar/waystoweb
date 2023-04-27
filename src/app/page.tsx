@@ -10,12 +10,9 @@ export default function Home() {
   // const recentPosts = posts.slice(1);
 
   return (
-    <div className="container mx-auto px-5">
+    <div className="containe mx-auto lg:px-48 sm:px-24 px-12">
       <main>
-        <div className="space-y-4">
-          <h1 className="text-center text-5xl">Waystoweb</h1>
-          <p className="text-center text-xl">Web is Easy!</p>
-        </div>
+        <div className="space-y-4"></div>
 
         <div className="h-12"></div>
 

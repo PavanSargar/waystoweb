@@ -6,6 +6,7 @@ categories:
   - "web-development"
 coverImage: "https://ik.imagekit.io/waystoweb/waystoweb/20/Copy-of-thumbnail-1.jpg?updatedAt=1682356741746"
 author: "Pavan Sargar"
+excerpt: "Why do you need to use React Fragments? What are the benefits of using fragments over divs? & Why not to use HTML elements?"
 ---
 
 Share:

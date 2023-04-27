@@ -4,10 +4,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { getPostBySlug } from "../lib/api";
 
-type Items = {
-  [key: string]: string;
-};
-
 export default function PostHero() {
   const heroPost = getPostBySlug("how-to-start-a-blog-in-2022", [
     "title",
@@ -17,12 +13,12 @@ export default function PostHero() {
     "coverImage",
   ]);
 
-  console.log(heroPost)
-
   return (
     <Link href={`/${heroPost.slug}`}>
       <div className="w-full mx-auto group">
+        <h2 className="mb-3 font-bold text-2xl">Featured</h2>
         <Image
+          className="shadow-[0_8px_30px_rgb(0,0,0,0.12)] rounded-2xl"
           alt={`cover image for ${heroPost.title}`}
           src={heroPost.coverImage}
           width={400}

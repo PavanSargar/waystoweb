@@ -14,6 +14,7 @@ export default function PostPreview({ post }: { post: Items }) {
       <Link href={`/${post.slug}`}>
         {post?.coverImage && (
           <Image
+            className="shadow-[0_8px_30px_rgb(0,0,0,0.12)] rounded-2xl "
             alt={`cover image for ${post.title}`}
             src={post.coverImage}
             width={400}

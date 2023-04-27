@@ -1,3 +1,39 @@
+.container code {
+  color: grey;
+  /* border: 1px solid grey; */
+  /* padding: 1rem; */
+  /* background-color: ; */
+}
+
+.container  pre {
+  background-color: #282C34;
+  border-radius: .4rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.container pre code {
+  color: rgb(209, 209, 209);
+}
+
+.container h2,
+.container h3,
+.container h4,
+.container h5,
+.container h6 {
+  color: black;
+  font-weight: bold;
+}
+
+.container pre code {
+  display: block;
+  background: none;
+  white-space: pre;
+  -webkit-overflow-scrolling: touch;
+  overflow-x: scroll;
+  max-width: 100%;
+  min-width: 100px;
+  padding: 0;
+}
+
 .markdown {
   @apply text-lg leading-relaxed;
 }
@@ -7,6 +43,7 @@
 .markdown ol,
 .markdown blockquote {
   @apply my-6;
+  color: black;
 }
 
 .markdown h2 {

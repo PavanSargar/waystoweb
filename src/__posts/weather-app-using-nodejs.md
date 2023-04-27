@@ -6,6 +6,7 @@ categories:
   - "web-development"
 coverImage: "https://ik.imagekit.io/waystoweb/waystoweb/14/Copy-of-for-thumbnail-1.jpg?updatedAt=1682356571330"
 author: "Pavan Sargar"
+excerpt: "Let’s create a simple weather app in Node.js & Express.js using Open Weather API and learn how to make HTTP Request in Nodejs & handle API data"
 ---
 
 Today we'll create a simple weather app in Node.js, Express using Openweather API. If you are new to Node.js then creating this simple weather app can really help you to learn how to handle APIs, make HTTP requests & handling the data & rendering it onto the front end.

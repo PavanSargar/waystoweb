@@ -5,6 +5,7 @@ categories:
   - "web-scraping"
 coverImage: "https://ik.imagekit.io/waystoweb/waystoweb/18/Copy-of-thumbnail.jpg?updatedAt=1682356719266"
 author: "Pavan Sargar"
+excerpt: "Learn the basics of Web Scraping in Nodejs for beginners using Puppeteer Library by taking a screenshot and scraping the data from HTML Elements."
 ---
 
 If you are wondering if only Python can do the web scraping then you are wrong. You can pretty much do everything in Nodejs too.

@@ -6,6 +6,7 @@ categories:
   - "web-development"
 coverImage: "https://ik.imagekit.io/waystoweb/waystoweb/23/How-to-host-your-Reac-app.png?updatedAt=1682356896899"
 author: "Pavan Sargar"
+excerpt: "How to host your React app or website for free?. Well, in today’s post we’ll learn to host a React website on a fast and secure server with SSL certificate."
 ---
 
 How to host your React website for free? what are the best free hosting platforms for React and static websites?

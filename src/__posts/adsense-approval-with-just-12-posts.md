@@ -1,10 +1,11 @@
 ---
 title: "How I got Google AdSense Approval with just 12 Posts?"
 date: "2021-08-02"
-categories: 
+categories:
   - "blogging"
 coverImage: "https://ik.imagekit.io/waystoweb/waystoweb/13/Copy-of-for-thumbnail.jpg?updatedAt=1682356554684"
 author: "Pavan Sargar"
+excerpt: "Are you also struggling with getting the AdSense approval? Checkout this Ultimate AdSense Approval Checklist which will get your blog approved"
 ---
 
 Share it:

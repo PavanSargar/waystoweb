@@ -1,10 +1,11 @@
 ---
 title: "Best Laptops for Programmers Under 40000 in 2022"
 date: "2021-09-07"
-categories: 
+categories:
   - "tech"
 coverImage: "https://ik.imagekit.io/waystoweb/waystoweb/16/best-laptops-for-programmers-under-40000-india-2021.jpg?updatedAt=1682356628491"
 author: "Pavan Sargar"
+excerpt: "Looking for a decent laptop has a college student or aspiring software developer. Checkout the list of 5 best laptops under 40000 for programmers & students."
 ---
 
 Do you want to become a Developer or Programmer & looking for a decent laptop that could handle some heavy programming tasks? Well, don't worry, today only for you I've curated 5 best laptops that you can get as a programmer for under 40,000 Rupees.

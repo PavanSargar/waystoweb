@@ -1,8 +1,10 @@
-import './globals.css'
-import { Inter } from 'next/font/google'
-import Head from './head'
+import "./globals.css";
+import { Inter } from "next/font/google";
+import Head from "./head";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ["latin"] });
 
 // export const metadata = {
 //   title: 'Create Next App',
@@ -12,12 +14,17 @@ const inter = Inter({ subsets: ['latin'] })
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html className="bg-globalBg" lang="en">
       <Head />
-      <body className={inter.className}>{children}</body>
+
+      <body className={inter.className}>
+        <Navbar />
+        {children}
+        <Footer />
+      </body>
     </html>
-  )
+  );
 }

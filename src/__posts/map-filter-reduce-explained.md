@@ -6,6 +6,7 @@ categories:
   - "web-development"
 coverImage: "https://ik.imagekit.io/waystoweb/waystoweb/15/thumbnail.jpg?updatedAt=1682356600665"
 author: "Pavan Sargar"
+excerpt: "JavaScript ES6 new array methods map, filter & reduce simply explained so that you don’t need to use loops for every operations in an array."
 ---
 
 Share:-

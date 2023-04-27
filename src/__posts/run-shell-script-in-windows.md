@@ -5,6 +5,7 @@ categories:
   - "tech"
 coverImage: "https://ik.imagekit.io/waystoweb/waystoweb/22/how-to-run-shell-scripting-in-windows.png?updatedAt=1682356860106"
 author: "Pavan Sargar"
+excerpt: "Easiest way to run and execute shell scripting code or LINUX/UNIX commands on Windows 10/11 without installing Linux or Virtual Machines"
 ---
 
 It’s a pain if you want to execute or run some UNIX/LINUX commands or do some Shell Scripting on Windows, we tend to install the Virtual Machine and do tons of configurations to install the Linux system in windows.

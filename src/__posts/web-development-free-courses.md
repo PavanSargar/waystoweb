@@ -3,7 +3,7 @@ title: "Top 4 Best Web Development Free Courses"
 date: "2021-04-30"
 categories: 
   - "web-development"
-coverImage: "https://waystoweb.com/wp-content/uploads/2021/04/Copy-of-for-thumbnail.png"
+coverImage: "https://ik.imagekit.io/waystoweb/waystoweb/01/Copy-of-for-thumbnail.png?updatedAt=1682356016459"
 author: "Pavan Sargar"
 ---
 
@@ -25,7 +25,7 @@ No, you don't have to today, I've made a list of top 5 best web development free
 
 ## 1\. [Web Development Course By Aman Dhattarwal](https://www.youtube.com/watch?v=l1EssrLxt7E&list=PLfqMhTWNBTe3H6c9OGXb5_6wcc1Mca52n)
 
-![apna college web development free course](https://waystoweb.com/wp-content/uploads/2021/04/apna-college-web-development-1536x740.jpg)
+![apna college web development free course](https://ik.imagekit.io/waystoweb/waystoweb/01/apna-college-web-development-1024x494.jpg?updatedAt=1682356015911)
 
 By far the best web development free course out there. If you don't know who Aman Dhattarwal is (I really doubt that by the way), he is an IT graduate, influencer, educator and public speaker.
 
@@ -44,7 +44,7 @@ Note: Course is still on going and it is updated regularly.
 
 ## [2\. Web Development Full Course by Edureka](https://www.youtube.com/watch?v=Q33KBiDriJY "Edureka")
 
-![Edureka web development free course](https://waystoweb.com/wp-content/uploads/2021/04/edureka-web-development.jpg)
+![Edureka web development free course](https://ik.imagekit.io/waystoweb/waystoweb/01/edureka-web-development-1024x710.jpg?updatedAt=1682356016275)
 
 This Complete web development course will help you learn all important concepts from basic to advance. By the end of the course you will be easily creating amazing interactive web apps and websites.
 
@@ -64,7 +64,7 @@ Edureka is a premium online platform, but they also have a Youtube channel where
 
 ## [3\. Complete Web Development Course by CodeWithHarry](https://www.youtube.com/watch?v=6mbwJ2xhgzM&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg "CodeWithHarry")
 
-![codewithharry web development free course](https://waystoweb.com/wp-content/uploads/2021/04/code-with-harry-web-development.jpg)
+![codewithharry web development free course](https://ik.imagekit.io/waystoweb/waystoweb/01/code-with-harry-web-development-1024x710.jpg?updatedAt=1682356016453)
 
 If you are an Indian, you definitely should know this guy. Harry or Haaris Ali Khan is a IIT Kharagpur graduate and one of the finest programmers in India.
 
@@ -82,7 +82,7 @@ This course is a full stack web developer course and covers almost everything th
 
 ## [4\. Learn HTML5 and CSS3 From Scratch - Full Course by FreeCodeCamp.org](https://www.youtube.com/watch?v=mU6anWqZJcc "freeCodeCamp")
 
-![Web Development Free Course by freecodecamp](https://waystoweb.com/wp-content/uploads/2021/04/free-code-camp-html-css.jpg)
+![Web Development Free Course by freecodecamp](https://ik.imagekit.io/waystoweb/waystoweb/01/free-code-camp-html-css-1024x632.jpg?updatedAt=1682356016448)
 
 If you are going to be a programmer or coder in future, keep this name [freeCodeCamp.org](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjV5aqptqbwAhUN83MBHbSAABoQ-TAoADAsegQIaxAB&url=https%3A%2F%2Fwww.freecodecamp.org%2F&usg=AOvVaw2O9Sbs3zh9NHmRpWZrEZt-) in mind, this is a non-profit organization which has interactive learning website platform. Everything in this site is free of cost. FreeCodeCamp also has a Youtube Channel, where they upload some amazing quality tutorials.
 

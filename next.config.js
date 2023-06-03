@@ -13,6 +13,10 @@ const nextConfig = {
         protocol: "https",
         hostname: "ik.imagekit.io",
       },
+      {
+        protocol: "https",
+        hostname: "media.licdn.com",
+      },
     ],
   },
 };

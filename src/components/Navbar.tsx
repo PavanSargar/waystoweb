@@ -98,10 +98,13 @@ const Navbar = (props: Props) => {
                   <div>
                     <Menu.Button className="flex rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
                       <span className="sr-only">Open user menu</span>
-                      <img
+                      <Image
                         className="h-8 w-8 rounded-full"
                         src="https://media.licdn.com/dms/image/D4D03AQGyLiK_H-KdPA/profile-displayphoto-shrink_400_400/0/1673636094627?e=1687996800&v=beta&t=q32ffFS-JzG3XvUL_GOsEG_Ok4ht3ddN4Z65mUMoOr0"
-                        alt=""
+                        alt="Pawan Sargar"
+                        height={30}
+                        width={30}
+                        priority
                       />
                     </Menu.Button>
                   </div>

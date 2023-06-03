@@ -30,33 +30,47 @@ const Footer = (props: Props) => {
       <div className="container mx-auto px-4">
         <div className="flex flex-wrap text-center lg:text-left">
           <div className="w-full lg:w-6/12 px-4">
-            <h4 className="text-3xl font-semibold text-white">Let's keep in touch!</h4>
+            <h4 className="text-3xl font-semibold text-white">
+              Let's keep in touch!
+            </h4>
             <h5 className="text-lg mt-0 mb-2 text-white">
-              You can find me on any of these platforms 
+              You can find me on any of these platforms
             </h5>
             <div className="mt-6 lg:mb-0 mb-6">
               <button
                 className="bg-white text-lightBlue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                 type="button"
+                aria-label="Twitter Link"
               >
-                <Link className="flex justify-center" href="https://www.twitter.com/pavansargar">
+                <Link
+                  className="flex justify-center"
+                  href="https://www.twitter.com/pavansargar"
+                >
                   <FaTwitter />
                 </Link>
               </button>
               <button
                 className="bg-white text-lightBlue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                 type="button"
+                aria-label="Facebook Link"
               >
-                <Link className="flex justify-center" href="https://www.facebook.com">
+                <Link
+                  className="flex justify-center"
+                  href="https://www.facebook.com"
+                >
                   <FaFacebook />
                 </Link>
               </button>
 
               <button
+                aria-label="Github Link"
                 className="bg-white shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                 type="button"
               >
-                <Link className="flex justify-center" href="https://www.github.com/pavansargar">
+                <Link
+                  className="flex justify-center"
+                  href="https://www.github.com/pavansargar"
+                >
                   <FaGithub />
                 </Link>
               </button>

@@ -4,7 +4,7 @@
 import React, { Fragment, useState } from "react";
 import Image from "next/image";
 import { Disclosure, Menu, Transition } from "@headlessui/react";
-import { HiBars3, HiBell, HiXMark } from "react-icons/hi2";
+import { HiBars3, HiXMark } from "react-icons/hi2";
 import Link from "next/link";
 
 import LOGO from "../assets/images/logo.svg";
@@ -45,16 +45,21 @@ const Navbar = (props: Props) => {
               </div>
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex flex-shrink-0 items-center">
-                  <Image
-                    className="block h-8 w-auto lg:hidden"
-                    src={LOGO}
-                    alt="Waystoweb"
-                  />
-                  <Image
-                    className="hidden h-10 w-auto lg:block"
-                    src={LOGO}
-                    alt="Waystoweb"
-                  />
+                  <Link href="/">
+                    <Image
+                      className="block h-8 w-auto lg:hidden"
+                      src={LOGO}
+                      alt="Waystoweb"
+                    />
+                  </Link>
+
+                  <Link href="/">
+                    <Image
+                      className="hidden h-10 w-auto lg:block"
+                      src={LOGO}
+                      alt="Waystoweb"
+                    />
+                  </Link>
                 </div>
                 <div className="hidden sm:ml-6 sm:block">
                   <div className="flex space-x-4">

@@ -4,7 +4,7 @@ type Props = {};
 
 const page = (props: Props) => {
   return (
-    <div>
+    <div className="py-12  lg:px-48 sm:px-24 px-12">
       <h2 className=" text-xl" id="date-2021-04-29-">
         Guest Post
       </h2>

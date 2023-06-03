@@ -9,7 +9,7 @@ export const metadata = {
 
 const PrivacyPolicy = (props: Props) => {
   return (
-    <div>
+    <div className="py-12  lg:px-48 sm:px-24 px-12">
       <hr />
       <p>title: &quot;Privacy Policy&quot;</p>
       <h2 id="date-2021-04-28-">date: &quot;2021-04-28&quot;</h2>

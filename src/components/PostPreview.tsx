@@ -11,7 +11,7 @@ type Items = {
 export default function PostPreview({ post }: { post: Items }) {
   return (
     <div className="w-full mx-auto group">
-      <Link href={`/${post.slug}`}>
+      <Link aria-label={post.title + " Link"} href={`/${post.slug}`}>
         {post?.coverImage && (
           <Image
             className="shadow-[0_8px_30px_rgb(0,0,0,0.12)] rounded-2xl "
@@ -23,9 +23,9 @@ export default function PostPreview({ post }: { post: Items }) {
           />
         )}
         <div className="mt-4 space-y-2">
-          <p className="font-semibold text-xl group-hover:underline">
+          <h3 className="font-semibold text-xl group-hover:underline">
             {post.title}
-          </p>
+          </h3>
           <DateFormatter dateString={post.date} />
           <p>{post.excerpt}</p>
         </div>

@@ -50,6 +50,7 @@ const Navbar = (props: Props) => {
                       className="block h-8 w-auto lg:hidden"
                       src={LOGO}
                       alt="Waystoweb"
+                      priority
                     />
                   </Link>
 
@@ -58,6 +59,7 @@ const Navbar = (props: Props) => {
                       className="hidden h-10 w-auto lg:block"
                       src={LOGO}
                       alt="Waystoweb"
+                      priority
                     />
                   </Link>
                 </div>

@@ -45,8 +45,9 @@ const Footer = (props: Props) => {
                 <Link
                   className="flex justify-center"
                   href="https://www.twitter.com/pavansargar"
+                  aria-label="Twitter Link"
                 >
-                  <FaTwitter />
+                  <FaTwitter aria-label="Twitter Link" />
                 </Link>
               </button>
               <button
@@ -57,8 +58,9 @@ const Footer = (props: Props) => {
                 <Link
                   className="flex justify-center"
                   href="https://www.facebook.com"
+                  aria-label="Facebook Link"
                 >
-                  <FaFacebook />
+                  <FaFacebook aria-label="Facebook Link" />
                 </Link>
               </button>
 
@@ -70,8 +72,9 @@ const Footer = (props: Props) => {
                 <Link
                   className="flex justify-center"
                   href="https://www.github.com/pavansargar"
+                  aria-label="Github Link"
                 >
-                  <FaGithub />
+                  <FaGithub aria-label="Github Link" />
                 </Link>
               </button>
             </div>
@@ -87,6 +90,7 @@ const Footer = (props: Props) => {
                     <Link
                       className=" text-white hover:text-grey font-semibold block pb-2 text-sm"
                       href="/about"
+                      aria-label="About us Link"
                     >
                       About Us
                     </Link>
@@ -95,6 +99,7 @@ const Footer = (props: Props) => {
                     <Link
                       className=" text-white text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
                       href="/"
+                      aria-label="Blog Link"
                     >
                       Blog
                     </Link>
@@ -103,6 +108,7 @@ const Footer = (props: Props) => {
                     <Link
                       className=" text-white text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
                       href="https://www.github.com/pavansargar"
+                      aria-label="Github Link"
                     >
                       Github
                     </Link>
@@ -126,6 +132,7 @@ const Footer = (props: Props) => {
                     <Link
                       className=" text-white text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
                       href="/"
+                      aria-label="Terms & Conditions Link"
                     >
                       Terms & Conditions
                     </Link>
@@ -134,6 +141,7 @@ const Footer = (props: Props) => {
                     <Link
                       className="text-white text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
                       href="/privacy-policy"
+                      aria-label="Privacy Policy Link"
                     >
                       Privacy Policy
                     </Link>
@@ -142,6 +150,7 @@ const Footer = (props: Props) => {
                     <Link
                       className="text-white text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
                       href="/contact-us"
+                      aria-label="Contact Us Link"
                     >
                       Contact Us
                     </Link>

@@ -45,7 +45,7 @@ const Navbar = (props: Props) => {
               </div>
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex flex-shrink-0 items-center">
-                  <Link href="/">
+                  <Link aria-label="Home Page Link" href="/">
                     <Image
                       className="block h-8 w-auto lg:hidden"
                       src={LOGO}
@@ -54,7 +54,7 @@ const Navbar = (props: Props) => {
                     />
                   </Link>
 
-                  <Link href="/">
+                  <Link aria-label="Home Page Link" href="/">
                     <Image
                       className="hidden h-10 w-auto lg:block"
                       src={LOGO}
@@ -77,6 +77,7 @@ const Navbar = (props: Props) => {
                           "rounded-md px-3 py-2 text-sm font-medium"
                         )}
                         aria-current={item?.current ? "page" : undefined}
+                        aria-label={item?.name}
                       >
                         {item?.name}
                       </Link>
@@ -87,6 +88,7 @@ const Navbar = (props: Props) => {
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
                 <button
                   type="button"
+                  aria-label="view notification button"
                   className="rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
                 >
                   <span className="sr-only">View notifications</span>
@@ -122,6 +124,7 @@ const Navbar = (props: Props) => {
                         {({ active }) => (
                           <a
                             href="#"
+                            aria-label="About me Link"
                             className={classNames(
                               active ? "bg-gray-100" : "",
                               "block px-4 py-2 text-sm text-gray-700"
@@ -134,6 +137,7 @@ const Navbar = (props: Props) => {
                       <Menu.Item>
                         {({ active }) => (
                           <a
+                            aria-label="Share Blog Link"
                             href="#"
                             className={classNames(
                               active ? "bg-gray-100" : "",
@@ -171,6 +175,7 @@ const Navbar = (props: Props) => {
                 <Disclosure.Button
                   key={item.name}
                   as="a"
+                  aria-label={item.name + " Link"}
                   href={item.href}
                   className={classNames(
                     item.current

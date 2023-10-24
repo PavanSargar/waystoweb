@@ -40,5 +40,5 @@ collections:
           label: "Body",
           name: "body",
           widget: "markdown",
-          hint: "This will be shown in product page.",
+          hint: "This is your blgo post",
         }

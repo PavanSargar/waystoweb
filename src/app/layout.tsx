@@ -30,12 +30,32 @@ export default function RootLayout({
     <html className="bg-globalBg" lang="en">
       <head>
         <link rel="shortcut icon" href="/assets/logos/favicon.ico" />
+        <script
+          async
+          src="https://identity.netlify.com/v1/netlify-identity-widget.js"
+        />
       </head>
 
       <body className={inter.className}>
         <Navbar />
         {children}
         <Footer />
+
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              if (window.netlifyIdentity) {
+                window.netlifyIdentity.on("init", user => {
+                  if (!user) {
+                    window.netlifyIdentity.on("login", () => {
+                      document.location.href = "/admin/";
+                    });
+                  }
+                });
+              }
+          `,
+          }}
+        />
       </body>
     </html>
   );

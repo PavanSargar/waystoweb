@@ -7,8 +7,13 @@ export async function generateMetadata({
 }: {
   params: { slug: string };
 }) {
-  const post = getPostBySlug(params.slug, ["title", "author", "content", "coverImage", "excerpt"]);
-  console.log("post data: ", post.coverImage)
+  const post = getPostBySlug(params.slug, [
+    "title",
+    "author",
+    "content",
+    "coverImage",
+    "excerpt",
+  ]);
   return {
     title: post.title,
     description: post?.excerpt ?? "",
@@ -16,9 +21,9 @@ export async function generateMetadata({
       title: post.title,
       images: {
         url: post.coverImage,
-        alt: post.title
-      }
-    }
+        alt: post.title,
+      },
+    },
   };
 }
 

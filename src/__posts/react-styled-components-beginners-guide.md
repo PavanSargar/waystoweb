@@ -1,7 +1,7 @@
 ---
 title: "React Styled Components: Beginners Guide"
 date: "2021-10-16"
-categories: 
+categories:
   - "react"
   - "web-development"
 coverImage: "https://ik.imagekit.io/waystoweb/waystoweb/19/Copy-of-thumbnail.png?updatedAt=1682356728825"
@@ -64,13 +64,13 @@ We can provide the CSS Styles between those backticks \` \`, just like below.
 
 ```jsx
 const Button = styled.button`
-    font: inherit;
-    padding: 0.5rem 1.5rem;
-    border: 1px solid #8b005d;
-    color: white;
-    background: #8b005d;
-    box-shadow: 0 0 4px rgba(0, 0, 0, 0.26);
-    cursor: pointer;
+  font: inherit;
+  padding: 0.5rem 1.5rem;
+  border: 1px solid #8b005d;
+  color: white;
+  background: #8b005d;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.26);
+  cursor: pointer;
 
   &:focus {
     outline: none;
@@ -113,8 +113,8 @@ We can also use styled-components in the same file and how can we do it? Let's s
 
 ```jsx
 <div className={`form-control ${!isValid ? "invalid" : ""}`}>
-    <label>Course Goal</label>
-    <input type="text" />
+  <label>Course Goal</label>
+  <input type="text" />
 </div>
 ```
 
@@ -160,8 +160,8 @@ To access the Pseudo classes and child elements or child classes we need to use 
 
 ```jsx
 <FormControl className={!isValid ? "invalid" : ""}>
-        <label>Course Goal</label>
-        <input type="text" />
+  <label>Course Goal</label>
+  <input type="text" />
 </FormControl>
 ```
 
@@ -194,18 +194,18 @@ const FormControl = styled.div`
     font-weight: bold;
     display: block;
     margin-bottom: 0.5rem;
-// --->
-    color: ${props => props.invalid ? "red" : "black"};
-// <---
+    // --->
+    color: ${(props) => (props.invalid ? "red" : "black")};
+    // <---
   }
 
   & input {
     display: block;
     width: 100%;
-// --->
-    border: 1px solid ${props => props.invalid ? "red" : "#ccc"};
-    background-color: ${props => props.invalid ? "#ffd7d7" : "transparent"};
-// <---
+    // --->
+    border: 1px solid ${(props) => (props.invalid ? "red" : "#ccc")};
+    background-color: ${(props) => (props.invalid ? "#ffd7d7" : "transparent")};
+    // <---
     font: inherit;
     line-height: 1.5rem;
     padding: 0 0.25rem;

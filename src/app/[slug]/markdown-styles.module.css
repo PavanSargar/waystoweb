@@ -5,13 +5,16 @@
   /* background-color: ; */
 }
 
-.container  pre {
-  background-color: #282C34;
-  border-radius: .4rem;
+.container pre {
+  background-color: #282c34;
+  border-radius: 0.4rem;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 1rem;
 }
 .container pre code {
   color: rgb(209, 209, 209);
+  overflow-x: auto !important;
+
 }
 
 .container h2,

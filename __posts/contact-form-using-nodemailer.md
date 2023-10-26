@@ -6,7 +6,7 @@ categories:
   - nodejs
   - web-development
 author: Pavan Sargar
-date: 2021-07-27
+date: "2021-07-27"
 ---
 
 Today, we will learn how to send an email in Nodejs by creating a fully functional contact form using Nodemailer. If you have a landing page or a blog, or even any website, having a contact page is important.

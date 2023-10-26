@@ -1,3 +1,6 @@
+.container {
+  margin: 7% 20%;
+}
 .container code {
   color: grey;
   /* border: 1px solid grey; */
@@ -55,4 +58,15 @@
 
 .markdown h3 {
   @apply text-2xl mt-8 mb-4 leading-snug;
+}
+
+.container ul li, .container ol li {
+  list-style-type: disc;
+  margin-left: 2rem;
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    margin: 7%;
+  }
 }

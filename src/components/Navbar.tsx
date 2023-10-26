@@ -102,7 +102,7 @@ const Navbar = (props: Props) => {
                       <span className="sr-only">Open user menu</span>
                       <Image
                         className="h-8 w-8 rounded-full"
-                        src="https://media.licdn.com/dms/image/D4D03AQGyLiK_H-KdPA/profile-displayphoto-shrink_400_400/0/1673636094627?e=1687996800&v=beta&t=q32ffFS-JzG3XvUL_GOsEG_Ok4ht3ddN4Z65mUMoOr0"
+                        src="https://ik.imagekit.io/waystoweb/Portfolio/professional.jpeg?updatedAt=1698286281560"
                         alt="Pawan Sargar"
                         height={30}
                         width={30}
@@ -123,7 +123,7 @@ const Navbar = (props: Props) => {
                       <Menu.Item>
                         {({ active }) => (
                           <a
-                            href="#"
+                            href="https://pavansargar.com"
                             aria-label="About me Link"
                             className={classNames(
                               active ? "bg-gray-100" : "",

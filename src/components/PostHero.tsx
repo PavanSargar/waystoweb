@@ -14,29 +14,31 @@ export default function PostHero() {
   ]);
 
   return (
-    <Link href={`/${heroPost.slug}`}>
-      <div className="w-full mx-auto group">
-        <h2 className="mb-3 font-bold text-2xl">Featured</h2>
-        <Image
-          className="shadow-[0_8px_30px_rgb(0,0,0,0.12)] rounded-2xl"
-          alt={`cover image for ${heroPost.title}`}
-          src={heroPost.coverImage}
-          width={400}
-          height={400}
-          style={{ width: "100%" }}
-          priority
-          blurDataURL="Loading..."
-          placeholder="blur"
-        />
+    <Link style={{width: "100%"}} href={`/${heroPost.slug}`}>
+      <div className="  mx-auto group flex items-center justify-start">
+        <div className="w-12/12">
+          <h2 className="mb-3 font-bold text-2xl">Featured</h2>
+          <Image
+            className="shadow-[0_8px_30px_rgb(0,0,0,0.12)] rounded-2xl"
+            alt={`cover image for ${heroPost.title}`}
+            src={heroPost.coverImage}
+            width={400}
+            height={400}
+            style={{ width: "100%" }}
+            priority
+            blurDataURL="Loading..."
+            placeholder="blur"
+          />
 
-        <div className="grid mt-4 md:grid-cols-2 grid-cols-1">
-          <div className="mb-2">
-            <p className="font-semibold text-xl group-hover:underline">
-              {heroPost.title}
-            </p>
-            <DateFormatter dateString={heroPost.date} />
+          <div className="grid mt-4 md:grid-cols-2 grid-cols-1">
+            <div className="mb-2">
+              <p className="font-semibold text-xl group-hover:underline">
+                {heroPost.title}
+              </p>
+              <DateFormatter dateString={heroPost.date} />
+            </div>
+            <p>{heroPost.excerpt}</p>
           </div>
-          <p>{heroPost.excerpt}</p>
         </div>
       </div>
     </Link>

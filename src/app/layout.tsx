@@ -1,13 +1,9 @@
+import Script from "next/script";
 import { Inter } from "next/font/google";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
-
-import FAVICON from "../assets/logos/icon.png";
-import APPLEICON from "../assets/logos/apple-touch-icon.png";
-import ICON from "../assets/logos/icon.png";
-
 import "./globals.css";
 
 export const metadata = {
@@ -35,6 +31,18 @@ export default function RootLayout({
           src="https://identity.netlify.com/v1/netlify-identity-widget.js"
         />
       </head>
+      {/* Google tag (gtag.js)  */}
+      <Script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-DJLG0BC6GD"
+      ></Script>
+      <Script id="google-analytics">
+        {` window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-DJLG0BC6GD');`}
+      </Script>
 
       <body className={inter.className}>
         <Navbar />

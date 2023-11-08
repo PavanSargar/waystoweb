@@ -123,6 +123,7 @@ const Navbar = (props: Props) => {
                       <Menu.Item>
                         {({ active }) => (
                           <a
+                            rel="author"
                             href="https://pavansargar.com"
                             aria-label="About me Link"
                             className={classNames(

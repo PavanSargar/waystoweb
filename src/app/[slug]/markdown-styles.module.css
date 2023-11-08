@@ -1,44 +1,29 @@
 .container {
   margin: 7% 20%;
 }
-.container code {
-  color: grey;
-  /* border: 1px solid grey; */
-  /* padding: 1rem; */
-  /* background-color: ; */
-}
 
-.container pre {
-  background-color: #282c34;
-  border-radius: 0.4rem;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  padding: 1rem;
-}
-.container pre code {
-  color: rgb(209, 209, 209);
-  overflow-x: auto !important;
 
-}
-
-.container h2,
-.container h3,
-.container h4,
-.container h5,
-.container h6 {
+.markdown h2,
+.markdown h3,
+.markdown h4,
+.markdown h5,
+.markdown h6
+{
   color: black;
   font-weight: bold;
+  margin: 2rem 0 1rem 0;
+  font-size: 1.6rem;
+}  
+
+.markdown p {
+  color: rgb(14, 14, 14);
+  margin-bottom: 1rem
 }
 
-.container pre code {
-  display: block;
-  background: none;
-  white-space: pre;
-  -webkit-overflow-scrolling: touch;
-  overflow-x: scroll;
-  max-width: 100%;
-  min-width: 100px;
-  padding: 0;
+.markdown pre {
+  margin-bottom: 1rem;
 }
+
 
 .markdown {
   @apply text-lg leading-relaxed;
@@ -49,7 +34,8 @@
 .markdown ol,
 .markdown blockquote {
   @apply my-6;
-  color: black;
+  color: black !important;
+  font-size: 1.1rem;
 }
 
 .markdown h2 {
@@ -60,7 +46,15 @@
   @apply text-2xl mt-8 mb-4 leading-snug;
 }
 
-.container ul li, .container ol li {
+.markdown em a, .markdown a {
+  color: rgb(72, 72, 217);
+}
+.markdown em a:hover, .markdown a:hover {
+  text-decoration: underline;
+}
+
+.markdown ul li,
+.markdown ol li {
   list-style-type: disc;
   margin-left: 2rem;
 }

@@ -1,5 +1,6 @@
 import Script from "next/script";
 import { Inter } from "next/font/google";
+import NextTopLoader from "nextjs-toploader";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
@@ -46,9 +47,19 @@ export default function RootLayout({
 
       <body className={inter.className}>
         <Navbar />
+        <NextTopLoader
+          color="#2299DD"
+          initialPosition={0.08}
+          crawlSpeed={200}
+          height={5}
+          crawl={true}
+          showSpinner={true}
+          easing="ease"
+          speed={400}
+          shadow="0 0 10px #2299DD,0 0 5px #2299DD"
+        />
         {children}
         <Footer />
-
         <script
           dangerouslySetInnerHTML={{
             __html: `

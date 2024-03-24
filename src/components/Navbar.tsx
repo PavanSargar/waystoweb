@@ -2,10 +2,10 @@
 /* eslint-disable @next/next/no-img-element */
 
 import React, { Fragment, useState } from "react";
+import Link from "next/link";
 import Image from "next/image";
 import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { HiBars3, HiXMark } from "react-icons/hi2";
-import Link from "next/link";
 
 import LOGO from "../assets/images/logo.svg";
 import { FaLink, FaShare } from "react-icons/fa";

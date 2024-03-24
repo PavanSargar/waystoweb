@@ -1,8 +1,10 @@
 import { getAllPosts } from "../lib/api";
-import PostPreview from "../components/PostPreview";
 import PostHero from "../components/PostHero";
-import Link from "next/link";
 import AllPosts from "@/components/AllPosts";
+
+export const config = {
+  amp: "hybrid",
+};
 
 export default function Home() {
   const posts = getAllPosts(["title", "date", "excerpt", "coverImage", "slug"]);

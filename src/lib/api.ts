@@ -1,4 +1,3 @@
-// "use server"
 import fs from "fs";
 import { join } from "path";
 import matter from "gray-matter";
@@ -21,8 +20,6 @@ export function getPostBySlug(slug: string, fields: string[] = []) {
 
   const items: Items = {};
 
-  // console.log("plain", slug);
-
   // Ensure only the minimal needed data is exposed
   fields.forEach((field) => {
     if (field === "slug") {
@@ -42,13 +39,10 @@ export function getPostBySlug(slug: string, fields: string[] = []) {
 
 export function getAllPosts(fields: string[] = []) {
   const slugs = getPostSlugs();
-  // console.log("slugs", slugs);
 
   const filteredSlugs = slugs.map((item) => {
     return item.split(".")[0];
   });
-
-  // console.log("filtered slugs", filteredSlugs);
 
   const posts = filteredSlugs
     .map((slug) => getPostBySlug(slug, fields))

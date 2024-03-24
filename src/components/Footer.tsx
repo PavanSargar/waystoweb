@@ -1,6 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
 import Link from "next/link";
-import React from "react";
 import { FaFacebook, FaGithub, FaTwitter } from "react-icons/fa";
 
 type Props = {};
